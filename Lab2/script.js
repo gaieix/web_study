@@ -1,4 +1,4 @@
-document.getElementById('loadBtn').addEventListener('click', loadPosts);
+document.getElementById('loadBtn').addEventListener('click', loadPosts); 
 async function loadPosts() { 
     const content = document.getElementById('content');
     const btn = document.getElementById('loadBtn');
